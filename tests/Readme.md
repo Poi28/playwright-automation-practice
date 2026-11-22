@@ -10,8 +10,11 @@ Practice tests written with Playwright and JavaScript.
 - Shared setup with `beforeEach`
 
 ## How to run
+
+````bash
 npm install
 npx playwright test
+````
 
 ## Practice sites
 - rahulshettyacademy.com
