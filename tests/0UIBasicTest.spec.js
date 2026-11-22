@@ -29,7 +29,7 @@ test('To test opening a browser',async ({browser}) =>
 });
 
 //same as above but more optimized
-test.only("More optimized testing from above test", async({browser})=>
+test("More optimized testing from above test", async({browser})=>
 {
     const context = await browser.newContext();
     const page = await context.newPage();
