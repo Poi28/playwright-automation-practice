@@ -1,7 +1,7 @@
 md
 # Playwright Automation Practice
 
-Practice tests written with Playwright and JavaScript.
+Practice tests written with Javascript and Typescript.
 
 ## What's covered
 - Login with valid and invalid credentials
