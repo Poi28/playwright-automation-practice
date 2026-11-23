@@ -7,6 +7,7 @@ Practice tests written with Playwright and JavaScript/TypeScript.
 - Dropdowns, checkboxes and radio buttons
 - Sorting checks on an e-commerce demo site
 - Shared setup with `beforeEach`
+- Cart: add and remove items, and match the name and price with the inventory page
 
 ## How to run
 
