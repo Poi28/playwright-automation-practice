@@ -9,4 +9,5 @@ test('Successful Login with Assertion', async ({page}) =>
     await page.getByRole("button", {name: "Login"}).click();
     await expect(page.locator(".app_logo")).toHaveText("Swag Labs");
     await expect(page).toHaveURL(/inventory/);
+    await expect(page.locator(".inventory_list")).toBeVisible();
 })
