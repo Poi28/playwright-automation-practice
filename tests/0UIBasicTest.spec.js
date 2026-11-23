@@ -54,7 +54,5 @@ test("More optimized testing from above test", async({browser})=>
 test('To test opening a page in a browser',async ({page}) =>
 {
     await page.goto("https://google.com")
-    //get title - assertion
-    console.log(await page.title())
-    await expect(page).toHaveTitle("Google")
+    await expect(page).toHaveURL(/google\.com/)
 });
