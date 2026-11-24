@@ -1,6 +1,6 @@
 # Playwright Automation Practice
 
-Practice tests written with Playwright and JavaScript/TypeScript.
+Practice tests written with Playwright(JavaScript).
 
 ## What's covered
 - Login with valid and invalid credentials
